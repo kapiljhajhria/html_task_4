@@ -6,6 +6,9 @@
     text-align: center;
     /*display: flex;*/
 }
+img{
+    width: 100%;
+}
 .body{
     margin: 10px;
 background-color: #C9FFEA;
@@ -28,6 +31,10 @@ background-color: #C9FFEA;
     align-content: center;
     align-items: center;
     text-align: center;
+}
+
+.logo{
+    width: auto;
 }
 
 .btn{
@@ -60,6 +67,7 @@ background-color: #C9FFEA;
     height: 50px;
     font-size: 30px;
     padding: 0;
+    width: auto;
 }
 .intro_content{
     text-justify: distribute-all-lines;
