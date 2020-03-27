@@ -1,0 +1,77 @@
+*{
+    box-sizing: border-box;
+    padding: 10px;
+    margin: 0;
+    font-family: sans-serif;
+    text-align: center;
+    /*display: flex;*/
+}
+.body{
+    margin: 10px;
+background-color: #C9FFEA;
+    flex-direction: column;
+    /*flex-wrap: wrap;*/
+    justify-content: space-between;
+    height: 1200px;
+    display: flex;
+
+}
+/*.section{*/
+/*    display: flex;*/
+/*    flex-direction: row;*/
+/*}*/
+
+.logoRow{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.btn{
+    border: 2px solid hsl(322,100%,66%);
+    border-radius: 50px;
+    /*justify-content: center;*/
+    display: flex;
+    height: 50px;
+    /*text-align: center;*/
+    /*align-content: center;*/
+    align-items: center;
+    color: deeppink;
+
+
+}
+
+.intro{
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    /*padding: 20px;*/
+    display: flex;
+    /*align-items: center;*/
+
+
+
+}
+
+.inro_headline{
+    height: 50px;
+    font-size: 30px;
+    padding: 0;
+}
+.intro_content{
+    text-justify: distribute-all-lines;
+}
+.btn_getstarted{
+    background-color: deeppink;
+    color: white;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.stats{
+    /*display: flex;*/
+    flex-wrap: wrap;
+}
