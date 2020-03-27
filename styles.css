@@ -11,7 +11,7 @@ img{
 }
 .body{
     margin: 10px;
-background-color: #C9FFEA;
+/*background-color: #C9FFEA;*/
     flex-direction: column;
     /*flex-wrap: wrap;*/
     justify-content: space-between;
@@ -51,28 +51,27 @@ background-color: #C9FFEA;
 
 }
 
-.intro{
+.intro,.readytobuild{
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     /*padding: 20px;*/
     display: flex;
+    width: 100%;
     /*align-items: center;*/
-
-
-
 }
 
 .inro_headline{
     height: 50px;
     font-size: 30px;
     padding: 0;
-    width: auto;
+    width: 100%;
 }
 .intro_content{
     text-justify: distribute-all-lines;
+    width: 100%;
 }
-.btn_getstarted{
+.btn_getstarted,.btn_getstartedforfree,.btn_newsletter{
     background-color: deeppink;
     color: white;
     font-weight: bolder;
@@ -80,6 +79,67 @@ background-color: #C9FFEA;
 }
 
 .stats{
-    /*display: flex;*/
+    width: 100%;
+    display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+}
+.statsicon{
+    align-self: flex-start;
+    width: 50px;
+    /*justify-content: flex-start;*/
+}
+.stats_number{
+    font-size: 80px;
+    font-weight: bolder;
+}
+
+
+.stats_content{
+    color:#CCCCCC ;
+    /*font-size: 29px;*/
+}
+
+.flowingconversation_headline,.growtogeher_headline,.yourusers_headline,.readytobuild_tagline{
+    font-size: 50px;
+    font-weight: bolder;
+    /*font-family: sans-serif;*/
+}
+
+.flowingconversation_content,.growtogether_content,.yourusers_content{
+    text-align: center;
+    font-size: 23px;
+}
+.readytobuild_tagline{
+    width: 100%;
+}
+.readytobuild{
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+}
+.changecolor{
+    padding-top: 0;
+    margin: 0;
+    background-color: hsl(192, 100%, 9%);
+    color: white;
+}
+.newsletter_textbox{
+    padding: 0;
+    height: 30px;
+    position: relative;
+    left: 0;
+    outline: none;
+    border: 1px solid #cdcdcd;
+    border-color: rgba(0,0,0,.15);
+    background-color: white;
+    font-size: 16px;
+    width: 100%;
+}
+
+.btn_newsletter{
+    /*parent also setting property for this class*/
+    flex-wrap: nowrap;
+    justify-content: end;
+    width: auto;
 }
