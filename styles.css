@@ -83,12 +83,20 @@ img{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+
+}
+.stats_community,.stats_messages{
+    justify-content: flex-start;
+    align-items: flex-start;
+    child-align: left;
+
 }
 .statsicon{
-    align-self: flex-start;
+    display: flex;
     width: 50px;
-    /*justify-content: flex-start;*/
+
 }
+
 .stats_number{
     font-size: 80px;
     font-weight: bolder;
@@ -142,4 +150,10 @@ img{
     flex-wrap: nowrap;
     justify-content: end;
     width: auto;
+}
+
+.topfooter{
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
 }
