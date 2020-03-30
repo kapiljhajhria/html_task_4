@@ -231,6 +231,11 @@ img {
     text-align: left;
 
 }
+.newsletter_heading{
+    text-align: left;
+    font-size: 28px;
+    font-weight: bold;
+}
 .logo{
     /*margin: 0;*/
     padding-bottom: 0;
