@@ -62,8 +62,14 @@ img {
     display: flex;
     width: 100%;
     /*align-items: center;*/
+
 }
 
+.intro{
+    height: 300px;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
 .inro_headline {
     height: 50px;
     font-size: 30px;
@@ -81,6 +87,9 @@ img {
     color: white;
     font-weight: bolder;
     font-size: 20px;
+}
+.spacer{
+    height: 350px;
 }
 
 .stats {
