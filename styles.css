@@ -152,6 +152,10 @@ img{
     padding: 0;
     /*width: 100%;*/
 }
+.btn_newsletter_col{
+    display: flex;
+    justify-content: flex-end;
+}
 .btn_newsletter{
     /*parent also setting property for this class*/
     flex-wrap: nowrap;
