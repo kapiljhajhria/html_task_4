@@ -85,6 +85,9 @@ img{
     justify-content: center;
 
 }
+.substats{
+    width: 100%;
+}
 .stats_community,.stats_messages{
     justify-content: flex-start;
     align-items: flex-start;
